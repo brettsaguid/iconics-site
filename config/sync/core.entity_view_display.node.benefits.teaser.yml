@@ -1,0 +1,31 @@
+uuid: 53fbe007-b941-401f-a0a0-d6794808360c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.benefits.body
+    - node.type.benefits
+  module:
+    - text
+    - user
+id: node.benefits.teaser
+targetEntityType: node
+bundle: benefits
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
