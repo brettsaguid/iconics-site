@@ -1,0 +1,22 @@
+uuid: 68974a0f-88a4-4d9c-8965-75f87b82498e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_description
+    - node.type.solution
+  module:
+    - text
+id: node.solution.field_main_description
+field_name: field_main_description
+entity_type: node
+bundle: solution
+label: 'Main Description'
+description: 'The Main Description should <b>ALWAYS</b> begin with an <b>h2</b> tag for a title. The description should follow.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

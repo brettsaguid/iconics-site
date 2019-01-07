@@ -1,0 +1,29 @@
+uuid: 6dd9b3ca-1210-4e9b-91c9-f4455cfd1366
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_solution
+    - node.type.benefits
+    - node.type.solution
+id: node.benefits.field_solution
+field_name: field_solution
+entity_type: node
+bundle: benefits
+label: Solution
+description: 'Select the Solution this Benefit relates to'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      solution: solution
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
