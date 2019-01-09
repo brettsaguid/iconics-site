@@ -32,7 +32,7 @@ vagrant_synced_folders:
   # The first synced folder will be used for the default Drupal installation, if
   # any of the build_* settings are 'true'. By default the folder is set to
   # the drupal-vm folder.
-  - local_path: C:\Users\Brett\Desktop\iconics
+  - local_path: C:\Users\Cathy\Desktop\iconics
     destination: /var/www/iconics
     type: nfs
     create: true
