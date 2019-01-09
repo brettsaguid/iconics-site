@@ -1,4 +1,4 @@
-uuid: 561e1720-53bf-490b-b822-b9b9ef771b03
+uuid: 9dad01a1-f253-48c4-95f7-0172abbe2c0d
 langcode: en
 status: true
 dependencies:
@@ -58,13 +58,6 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 2
-    region: content
-    settings:
-      include_locked: true
     third_party_settings: {  }
   path:
     type: path

@@ -1,4 +1,4 @@
-uuid: 024aa73e-0954-42f1-b501-3468d6e8b684
+uuid: df57db0b-df87-41a7-a88d-8a8b8c22ee42
 langcode: en
 status: true
 dependencies:
@@ -15,7 +15,7 @@ bundle: article
 label: Tags
 description: 'Enter a comma-separated list. For example: Amsterdam, Mexico City, "Cleveland, Ohio"'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

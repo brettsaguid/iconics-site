@@ -1,9 +1,0 @@
-uuid: ecdaf18b-307c-4882-b364-ca37d22db187
-langcode: en
-status: true
-dependencies: {  }
-id: it
-label: Italian
-direction: ltr
-weight: 3
-locked: false
